@@ -321,8 +321,8 @@ $(window).mouseenter(function () {
 });
 
 var canvas = $("#myCanvas");
-var canvasHeight = 200;
-var canvasWidth = 400;
+var canvasHeight = window.innerHeight;
+var canvasWidth = window.innerWidth;
 var ctx;
 var pointCollection;
 
